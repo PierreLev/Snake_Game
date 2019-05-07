@@ -1,0 +1,64 @@
+﻿##READ ME pour le projet #2 du cours B62
+###Projet : Snake
+
+#### Qui sont les étudiants ayant travaillé sur le projet. 
+
+Réalisé par : Pierre Léveillé, Joey Dallaire, Paola Vargas, Camille Acco et Othman Chahlouni
+
+#### Quelles sont les classes qui s’occupent de faire la gestion de l’automate? 
+
+Les classes StateMachine, State et Transition se chargent de faire la gestion de l'automate. La classe SnakeFSM est une sous-classe de 
+StateMachine et c'est dans cette classe que tout les différents états et transitions sont créés lors qu'un objet SnakeFSM est crée;
+ 
+#### Quelle est la classe implémentant l’outil de « log »? 
+Deux classes: La classe Log qui est un singleton, elle sert a interpréter les informations envoyés par le programme sous forme de String. 
+La classe WriteFile prend la String du Log et l'enregistre dans un fichier texte au choix du l'usagé.
+
+####  Quelle structure de données avez-vous utilisée pour maintenir le corps du serpent? Pourquoi? 
+
+Paola avait commencé à faire des cellules pour utiliser du polymorphisme, mais puisque c'est un schéma séquentiel et non par MVC, Pierre 
+a beaucoup avancé la vue de son côté avec la librairie BAI, et a utilisé les coordonnées du Point de la librairie pour faire les mouvements et les calculs du jeu.
+Chaque boule du serpent est un objet, conservé dans un vecteur mis en référence dans l'aréna de jeu. De cette façon les calculs avec la nourriture
+ou avec le warp/portail est calculé. Les food et le warp sont des objets mis dans un vecteur contenu dans l'aréna aussi.
+
+ #### Avez-vous utilisé les notions d’héritage et de polymorphisme dans votre solution? Pourquoi? Si oui, où? 
+Automate : Pour ce qui est de l'héritage, la classe SnakeFSM hérite de StateMachine et ainsi, de tout ces fonctions. En ayant les 
+fonctions de StateMachine, il est dont possible de créer un automate propre au jeu de snake.
+
+Snake : Oui, pour les SnakeCell, FoodCell et WarpCell, car ils utilisaient des variables communes. Ils ont donc comme parent Cell.
+
+Log file : Non
+
+### Ajout personnel
+
+On voulait faire un warp qui fait apparaître le snake à une position random. 
+Par contre, au cours du chemin un défi est apparu avant de le coder, comment mettre le serpent dans le world de position random, sans que les
+boules du serpent ne sortent du jeu ou ne soient trop près de la bordure du monde.
+
+Donc, nous avons fait un petit carré qui apparait, et nous étions rendu à l'étape de le mettre en fonction. Ultimement, à la place d'apparaître à
+une place random, le petit carré aurait agis comme un portail, le faisant apparaitre dans le coin gauche avec comme direction la droite.
+
+####  Quelles étaient les intentions initiales, qu’est-ce que fonctionnent bien et qu’est-ce qui fonctionnent moins bien?
+
+Les intentions initiales pour l'ajoute personnel étaient de permettre au snake de pouvoir se téléporter à un point random pour se sortir de 
+situations difficiles.
+
+Sinon le projet est tel que voulu dans l'ensemble pour le visuel et pour la forme aussi.
+
+Qu'est-ce qui fonctionne bien? 
+L'automate fonctionne bien, le serpent fonctionne bien avec la nourriture et l'ajout de boules de serpent. 
+En général les mouvements du serpent et les collisions fonctionnent bien.
+
+Qu'est-ce qui fonctionne moins bien? 
+Il faut parfois toucher une touche plusieurs fois avant que la fenêtre change. Ensuite parfois le serpent meurt en se collisionant contre ce qui pourrait
+sembler être des boules de serpent fantôme. Il doit y avoir un bug dans les collisions.
+Aussi il nous a manqué du temps pour faire un bon ajout personnel.
+
+ #### Selon vous, quelle note (sur 10) méritez-vous pour ces trois critères : 
+
+ //SECTION À COMPLETER
+ Pertinence(entre 0 et 10) : 8 (l'automate et la librairie BAI sont des outils intéressants)
+ Difficulté (entre 0 et 10) : 8 (3 semaines c'est court)
+ Qualité (entre 0 et 10) : 8 (assez satisfait)
+
+

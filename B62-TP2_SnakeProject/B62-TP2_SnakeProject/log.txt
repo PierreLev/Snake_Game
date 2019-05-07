@@ -1,0 +1,649 @@
+info ---------------------------
+info Ouverture de l'application
+debug Changement de State de welcome à quit
+debug Changement de State de quit à exit
+debug Sorti du jeu sécuritaire
+info ---------------------------
+info Ouverture de l'application
+debug Changement de State de welcome à options
+debug Changement de State de options à welcome
+debug Changement de State de welcome à quit
+debug Changement de State de quit à exit
+debug Sorti du jeu sécuritaire
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à welcome
+debug Changement de State de welcome à options
+debug Changement de State de options à instructions
+debug Changement de State de instructions à options
+debug Changement de State de options à welcome
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+trace Collision avec un mur
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Nouvelle direction: up
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à welcome
+debug Changement de State de welcome à options
+debug Changement de State de options à instructions
+debug Changement de State de instructions à options
+debug Changement de State de options à welcome
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec un mur
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à welcome
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à welcome
+info Ouverture de l'application
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à quit
+debug Changement de State de quit à exit
+debug Sorti du jeu sécuritaire
+info ---------------------------
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec un mur
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: left
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+trace Collision avec lui-meme
+debug Changement de State de onGame à gameOver
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: down
+debug Tic du jeu
+trace Collision avec un mur
+debug Changement de State de onGame à gameOver
+debug Changement de State de gameOver à welcome
+debug Changement de State de welcome à quit
+debug Changement de State de quit à exit
+debug Sorti du jeu sécuritaire
+info ---------------------------
+info Ouverture de l'application
+info Ouverture de l'application
+info Ouverture de l'application
+debug Changement de State de welcome à start
+debug Changement de State de start à onGame
+debug 
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+debug Nouvelle direction: left
+debug Tic du jeu
+debug Nouvelle direction: down
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Nouvelle direction: down
+debug Tic du jeu
+debug Nouvelle direction: right
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug Nouvelle direction: up
+debug Tic du jeu
+trace Collision avec bouffe
+info Snake mange bouffe
+debug Snake grandit
+debug Tic du jeu
+debug 
+debug Tic du jeu
+trace Collision avec un mur
+debug Changement de State de onGame à gameOver

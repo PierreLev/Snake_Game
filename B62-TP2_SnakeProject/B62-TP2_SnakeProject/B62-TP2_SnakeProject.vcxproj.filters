@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Accueil.cpp" />
+    <ClCompile Include="Arena.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CellState.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Coordinates.cpp" />
+    <ClCompile Include="Demarrer.cpp" />
+    <ClCompile Include="FoodCell.cpp" />
+    <ClCompile Include="EmptyCell.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Instructions.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="Quit.cpp" />
+    <ClCompile Include="SnakeCell.cpp" />
+    <ClCompile Include="SnakeFSM.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="TokenCell.cpp" />
+    <ClCompile Include="Transition.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="View.cpp" />
+    <ClCompile Include="WriteFile.cpp" />
+    <ClCompile Include="WarpCell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dev\include\BasicApplicationInterface.h" />
+    <ClInclude Include="..\dev\include\Color.h" />
+    <ClInclude Include="..\dev\include\InputManager.h" />
+    <ClInclude Include="..\dev\include\Point.h" />
+    <ClInclude Include="..\dev\include\Rect.h" />
+    <ClInclude Include="..\dev\include\Resources.h" />
+    <ClInclude Include="..\dev\include\Size.h" />
+    <ClInclude Include="..\dev\include\Surface.h" />
+    <ClInclude Include="Accueil.h" />
+    <ClInclude Include="Arena.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="CellState.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Coordinates.h" />
+    <ClInclude Include="Demarrer.h" />
+    <ClInclude Include="EmptyCell.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="FoodCell.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="Instructions.h" />
+    <ClInclude Include="LogManager.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="Quit.h" />
+    <ClInclude Include="SnakeCell.h" />
+    <ClInclude Include="SnakeFSM.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="TokenCell.h" />
+    <ClInclude Include="Transition.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="WriteFile.h" />
+    <ClInclude Include="WarpCell.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dev\include\bai" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+#ifndef cell_H
+#define cell_H
+
+#include "coordinates.h"
+#include "State.h"
+
+class Cell
+{
+public:
+	
+
+	Cell() : mState{ State() }, mCoords{ Coordinates() }  { };
+	Cell(Coordinates::coordinate_t x, Coordinates::coordinate_t y, State::State_t state, size_t width, size_t height);
+	Cell(Coordinates::coordinate_t x, Coordinates::coordinate_t y, State::State_t state);
+	Cell(Coordinates::coordinate_t x, Coordinates::coordinate_t y);
+	Cell(Coordinates::coordinate_t x, Coordinates::coordinate_t y, size_t width, size_t height);
+	Cell(State::State_t state);
+	~Cell() = default;
+
+	State getState();
+	Coordinates getCoords();
+
+	void setState(State::State_t state);
+	void setCoords(Coordinates::coordinate_t x, Coordinates::coordinate_t y);
+	
+	
+	virtual void draw() = 0;
+protected:
+	State mState;
+	Coordinates mCoords;
+	size_t mWidth = 1;
+	size_t mHeight = 1;
+
+};
+
+#endif // !cell_H

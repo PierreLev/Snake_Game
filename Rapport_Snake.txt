@@ -1,0 +1,44 @@
+##READ ME pour le projet #2 du cours B62
+###Projet : Snake
+
+#### Qui sont les étudiants ayant travaillé sur le projet. 
+
+Réalisé par : Pierre Léveillé, Joey Dallaire, Paola Vargas, Camille Acco et Othman Chahlouni
+
+#### Quelles sont les classes qui s’occupent de faire la gestion de l’automate? 
+
+Les classes StateMachine, State et Transition se chargent de faire la gestion de l'automate. La classe SnakeFSM est une sous-classe de StateMachine et c'est dans cette classe que tout les différents états et transitions sont créés lors qu'un objet SnakeFSM est crée;
+ 
+#### Quelle est la classe implémentant l’outil de « log »? 
+
+//SECTION CAMILLE
+
+####  Quelle structure de données avez-vous utilisée pour maintenir le corps du serpent? Pourquoi? 
+
+//SECTION PIERRE OU PAOLA
+
+ #### Avez-vous utilisé les notions d’héritage et de polymorphisme dans votre solution? Pourquoi? Si oui, où? 
+Automate : Pour ce qui est de l'héritage, la classe SnakeFSM hérite de StateMachine et ainsi, de tout ces fonctions. En ayant les fonctions de StateMachine, il est dont possible de créer un automate propre au jeu de snake.
+
+Snake : //SECTION PIERRE OU PAOLA
+
+Log file : //SECTION CAMILLE
+
+### Ajout personnel
+
+####  Quelles étaient les intentions initiales, qu’est-ce que fonctionnent bien et qu’est-ce qui fonctionnent moins bien?
+
+Les intentions initiales étaient de permettre au snake de pouvoir se téléporter à un point random pour se sortir de situations difficiles.
+
+Qu'est-ce qui fonctionne bien? //À COMPLETER
+
+Qu'est-ce qui fonctionne moins bien? //À COMPLETER
+
+ #### Selon vous, quelle note (sur 10) méritez-vous pour ces trois critères : 
+
+ //SECTION À COMPLETER
+ Pertinence(entre 0 et 10) :
+ Difficulté (entre 0 et 10) :
+ Qualité (entre 0 et 10) :
+
+
